@@ -1,6 +1,8 @@
 ---
 - hosts: all 
   become: True
+  become_user: root
+  remote_user: ansible
   tasks:
     - name: Install packages
       yum:
@@ -15,4 +17,4 @@
       copy:
         src: index.html
         dest: /var/www/html/
-...
+
