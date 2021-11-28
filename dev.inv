@@ -1,4 +1,2 @@
 [webserver]
-ansible@192.168.56.11 ansible=ansible-master 
-ansible@192.168.56.12 ansible=ansible-node1 
-ansible@192.168.56.13 ansible=ansible-node2 
+192.168.56.11  
