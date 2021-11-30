@@ -1,2 +1,2 @@
 [slave]
-192.168.50.100  
+192.168.50.100  ansible_user=ansible
